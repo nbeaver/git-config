@@ -1,0 +1,15 @@
+[user]
+	name = Nathaniel Beaver\n
+	email = nathanielmbeaver@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = current
+	# TODO: change this to 'simple' once Debian stable's git hits version 1.7.11
+
+[diff "csv"]
+	wordRegex = [^,\n]+[,\n]|[,]
+[core]
+	excludesfile = /home/nathaniel/.gitignore_global
