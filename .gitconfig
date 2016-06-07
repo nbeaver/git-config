@@ -12,3 +12,7 @@
 	wordRegex = [^,\n]+[,\n]|[,]
 [core]
 	excludesfile = /home/nathaniel/.gitignore_global
+[alias]
+	iaddpw = add--interactive-words --patch=stage --
+[transfer]
+	fsckObjects = true
