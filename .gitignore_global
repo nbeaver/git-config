@@ -2,3 +2,5 @@
 *.sw?
 # Python bytecode.
 *.pyc
+# Dolphin temp files
+.directory
