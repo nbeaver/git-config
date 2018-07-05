@@ -2,5 +2,7 @@
 *.sw?
 # Python bytecode.
 *.pyc
+# Python build cache.
+__pycache__
 # Dolphin temp files
 .directory
