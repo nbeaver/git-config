@@ -8,3 +8,5 @@ __pycache__
 .directory
 # ctags output
 tags
+# Ignore lock files.
+.~lock.*#
