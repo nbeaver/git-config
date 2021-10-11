@@ -10,3 +10,5 @@ __pycache__
 tags
 # Lock files.
 .~lock.*#
+# IntelliJ IDE / Jetbrains / PyCharm folder.
+.idea
