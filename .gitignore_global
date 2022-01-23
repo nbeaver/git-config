@@ -12,3 +12,5 @@ tags
 .~lock.*#
 # IntelliJ IDE / Jetbrains / PyCharm folder.
 .idea
+# Notepad++ backup files.
+*.bak
