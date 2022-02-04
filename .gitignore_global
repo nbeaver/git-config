@@ -14,3 +14,5 @@ tags
 .idea
 # Notepad++ backup files.
 *.bak
+# insync temp files
+.~$*.insyncdl
