@@ -4,6 +4,8 @@
 *.pyc
 # Python build cache.
 __pycache__
+# Jupyter notebook cache files.
+.ipynb_checkpoints
 # Dolphin temp files
 .directory
 # ctags output
