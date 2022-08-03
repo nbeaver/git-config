@@ -1,5 +1,9 @@
 # Vim swap files.
 *.sw?
+# Vim persistent undo files.
+*.un~
+# https://stackoverflow.com/questions/15660669/what-is-a-un-file-or-or-why-does-vim-in-the-terminal-make-the-un-file
+
 # Python bytecode.
 *.pyc
 # Python build cache.
