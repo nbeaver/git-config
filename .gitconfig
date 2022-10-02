@@ -11,7 +11,7 @@
 [diff "csv"]
 	wordRegex = [^,\n]+[,\n]|[,]
 [core]
-	excludesfile = /home/nathaniel/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
 	iaddpw = add--interactive-words --patch=stage --
 [transfer]
