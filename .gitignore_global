@@ -22,3 +22,5 @@ tags
 *.bak
 # insync temp files
 .~$*.insyncdl
+# hypothesis folder
+.hypothesis
