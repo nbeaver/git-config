@@ -12,6 +12,7 @@
 	wordRegex = [^,\n]+[,\n]|[,]
 [core]
 	excludesfile = ~/.gitignore_global
+	autocrlf = input
 [alias]
 	iaddpw = add--interactive-words --patch=stage --
 [transfer]
