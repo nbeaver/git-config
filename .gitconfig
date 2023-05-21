@@ -17,3 +17,6 @@
 	iaddpw = add--interactive-words --patch=stage --
 [transfer]
 	fsckObjects = true
+[credential "https://gitlab.com"]
+	provider = generic
+# https://github.com/git-ecosystem/git-credential-manager/issues/364
