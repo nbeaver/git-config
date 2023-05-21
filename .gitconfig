@@ -20,3 +20,7 @@
 [credential "https://gitlab.com"]
 	provider = generic
 # https://github.com/git-ecosystem/git-credential-manager/issues/364
+
+[filter "strip-notebook-output"]
+    clean = "jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR"
+# https://stackoverflow.com/questions/28908319/how-to-clear-jupyter-notebooks-output-in-all-cells-from-the-linux-terminal
