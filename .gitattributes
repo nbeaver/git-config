@@ -1,0 +1,8 @@
+# https://www.git-scm.com/docs/gitattributes
+*.bat		text eol=crlf
+*.jpg		-text
+*.ps1		text working-tree-encoding=UTF-16LE eol=CRLF
+*.py		text eol=lf
+*.sh		text eol=lf
+*.txt		text eol=lf
+*.vcproj	text eol=crlf

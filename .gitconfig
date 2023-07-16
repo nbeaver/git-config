@@ -13,6 +13,7 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
+	attributesfile = ~/.gitattributes
 [alias]
 	iaddpw = add--interactive-words --patch=stage --
 [transfer]
