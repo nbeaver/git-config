@@ -1,9 +1,14 @@
 # https://www.git-scm.com/docs/gitattributes
 *.bat		text eol=crlf
 *.jpg		-text
-*.ps1		text working-tree-encoding=UTF-16LE eol=CRLF
 *.py		text eol=lf
 *.sh		text eol=lf
 *.txt		text eol=lf
 *.vcproj	text eol=crlf
 *.ipynb filter=strip-notebook-output
+
+# "If you need to use non-Ascii characters in your scripts, save them as UTF-8
+# with BOM. Without the BOM, Windows PowerShell misinterprets your script as
+# being encoded in the legacy "ANSI" codepage."
+# https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-7.4
+*.ps1		text eol=CRLF
