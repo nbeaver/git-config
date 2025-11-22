@@ -14,7 +14,7 @@
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
 	attributesfile = ~/.gitattributes
-	fileMode = false
+	fileMode = true
 [alias]
 	iaddpw = add--interactive-words --patch=stage --
 [transfer]
