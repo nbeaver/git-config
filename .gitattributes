@@ -3,7 +3,6 @@
 *.jpg		-text
 *.py		text eol=lf
 *.sh		text eol=lf
-*.txt		text eol=lf
 *.vcproj	text eol=crlf
 *.ipynb filter=strip-notebook-output
 
