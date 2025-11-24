@@ -1,7 +1,6 @@
 # https://www.git-scm.com/docs/gitattributes
 *.bat		text eol=crlf
 *.jpg		-text
-*.py		text eol=lf
 *.sh		text eol=lf
 *.vcproj	text eol=crlf
 *.ipynb filter=strip-notebook-output
