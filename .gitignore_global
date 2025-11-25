@@ -24,3 +24,5 @@ tags
 .~$*.insyncdl
 # hypothesis folder
 .hypothesis
+# Windows stack dumps.
+*.stackdump
