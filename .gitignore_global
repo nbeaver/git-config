@@ -26,3 +26,5 @@ tags
 .hypothesis
 # Windows stack dumps.
 *.stackdump
+# MuseScore backup folder.
+.mscbackup
